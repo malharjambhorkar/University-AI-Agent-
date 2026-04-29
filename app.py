@@ -92,19 +92,19 @@ def inject_styles():
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap');
 
 :root {
-    --bg: #050816;
-    --panel: rgba(12, 18, 36, 0.82);
-    --panel-strong: rgba(16, 24, 48, 0.92);
-    --card: rgba(255, 255, 255, 0.045);
-    --card-hover: rgba(255, 255, 255, 0.075);
-    --border: rgba(123, 92, 255, 0.22);
-    --text: #eef2ff;
-    --muted: rgba(214, 220, 255, 0.68);
-    --subtle: rgba(173, 184, 230, 0.45);
-    --primary: #7b5cff;
-    --primary-2: #976dff;
-    --cyan: #1ad8ff;
-    --green: #1ee7a8;
+    --bg: #07111f;
+    --panel: rgba(11, 24, 42, 0.82);
+    --panel-strong: rgba(12, 28, 48, 0.92);
+    --card: rgba(255, 255, 255, 0.04);
+    --card-hover: rgba(255, 255, 255, 0.07);
+    --border: rgba(52, 193, 255, 0.18);
+    --text: #f4f8ff;
+    --muted: rgba(209, 222, 242, 0.72);
+    --subtle: rgba(160, 180, 210, 0.52);
+    --primary: #18c8ff;
+    --primary-2: #2df0c6;
+    --cyan: #56d8ff;
+    --green: #46f0c2;
     --danger: #ff6f91;
     --amber: #ffcf61;
 }
@@ -115,9 +115,9 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 
 [data-testid="stAppViewContainer"] {
     background:
-        radial-gradient(circle at 12% 18%, rgba(123, 92, 255, 0.18), transparent 28%),
-        radial-gradient(circle at 85% 78%, rgba(26, 216, 255, 0.10), transparent 22%),
-        linear-gradient(180deg, #060918 0%, #040612 100%) !important;
+        radial-gradient(circle at 12% 18%, rgba(24, 200, 255, 0.14), transparent 26%),
+        radial-gradient(circle at 82% 76%, rgba(45, 240, 198, 0.10), transparent 24%),
+        linear-gradient(180deg, #07111f 0%, #050d18 100%) !important;
     color: var(--text);
 }
 
@@ -126,11 +126,11 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
     position: fixed;
     inset: 0;
     background-image:
-        linear-gradient(rgba(95, 102, 180, 0.08) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(95, 102, 180, 0.08) 1px, transparent 1px);
-    background-size: 48px 48px;
+        linear-gradient(rgba(86, 216, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(86, 216, 255, 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
     pointer-events: none;
-    opacity: 0.22;
+    opacity: 0.16;
 }
 
 [data-testid="stMainBlockContainer"] {
@@ -141,8 +141,8 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 }
 
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, rgba(7, 10, 24, 0.95), rgba(7, 10, 24, 0.88)) !important;
-    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(180deg, rgba(6, 14, 26, 0.98), rgba(7, 17, 31, 0.92)) !important;
+    border-right: 1px solid rgba(86, 216, 255, 0.10);
 }
 
 [data-testid="stSidebar"] > div:first-child {
@@ -158,9 +158,9 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
     display: inline-block;
     padding: 0.45rem 1rem;
     border-radius: 999px;
-    border: 1px solid rgba(123, 92, 255, 0.42);
-    background: rgba(123, 92, 255, 0.12);
-    color: #b8adff;
+    border: 1px solid rgba(86, 216, 255, 0.28);
+    background: rgba(86, 216, 255, 0.10);
+    color: #b9ebff;
     font-size: 0.76rem;
     letter-spacing: 0.20em;
     text-transform: uppercase;
@@ -170,10 +170,10 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 .hero-title {
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 1.04;
     font-weight: 700;
-    color: var(--cyan);
+    color: #dff8ff;
 }
 
 .hero-copy {
@@ -183,9 +183,9 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 }
 
 .glass {
-    background: linear-gradient(180deg, rgba(16, 22, 41, 0.85), rgba(10, 16, 31, 0.82));
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 24px 80px rgba(2, 8, 24, 0.38);
+    background: linear-gradient(180deg, rgba(12, 24, 41, 0.82), rgba(9, 19, 33, 0.84));
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 24px 80px rgba(1, 7, 20, 0.34);
     border-radius: 24px;
     backdrop-filter: blur(18px);
 }
@@ -199,7 +199,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
     font-size: 0.72rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #9f92ff;
+    color: #8edfff;
     margin-bottom: 0.9rem;
     display: flex;
     align-items: center;
@@ -210,7 +210,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
     content: "";
     flex: 1;
     height: 1px;
-    background: linear-gradient(90deg, rgba(123, 92, 255, 0.38), transparent);
+    background: linear-gradient(90deg, rgba(86, 216, 255, 0.26), transparent);
 }
 
 .stat-card {
@@ -226,7 +226,7 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     font-size: 2.1rem;
-    color: #51a2ff;
+    color: #8cddff;
 }
 
 .stat-label {
@@ -247,9 +247,9 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 .quick-pill {
     padding: 0.52rem 0.95rem;
     border-radius: 999px;
-    border: 1px solid rgba(123, 92, 255, 0.34);
-    background: rgba(123, 92, 255, 0.10);
-    color: #d8d3ff;
+    border: 1px solid rgba(86, 216, 255, 0.20);
+    background: rgba(86, 216, 255, 0.08);
+    color: #d7f6ff;
     font-size: 0.86rem;
 }
 
@@ -307,8 +307,8 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 }
 
 .user-bubble {
-    background: linear-gradient(135deg, rgba(123, 92, 255, 1), rgba(151, 109, 255, 0.96));
-    color: white;
+    background: linear-gradient(135deg, rgba(24, 200, 255, 0.92), rgba(45, 240, 198, 0.86));
+    color: #062033;
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -353,9 +353,9 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 }
 
 .status-online {
-    color: #4effbb;
-    border: 1px solid rgba(30, 231, 168, 0.32);
-    background: rgba(9, 58, 45, 0.40);
+    color: #b8ffea;
+    border: 1px solid rgba(45, 240, 198, 0.24);
+    background: rgba(8, 58, 52, 0.36);
 }
 
 .status-offline {
@@ -424,20 +424,20 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 }
 
 .stTextInput input, .stSelectbox [data-baseweb="select"] > div {
-    background: rgba(255,255,255,0.05) !important;
+    background: rgba(255,255,255,0.045) !important;
     color: var(--text) !important;
-    border-radius: 16px !important;
+    border-radius: 18px !important;
     border: 1px solid rgba(255,255,255,0.12) !important;
 }
 
 .stButton > button {
-    border-radius: 16px !important;
+    border-radius: 18px !important;
     border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    background: linear-gradient(135deg, rgba(123, 92, 255, 1), rgba(151, 109, 255, 0.96)) !important;
-    color: white !important;
+    background: linear-gradient(135deg, rgba(24, 200, 255, 0.96), rgba(45, 240, 198, 0.92)) !important;
+    color: #07111f !important;
     font-weight: 600 !important;
     min-height: 2.8rem !important;
-    box-shadow: 0 12px 28px rgba(123, 92, 255, 0.18) !important;
+    box-shadow: 0 12px 32px rgba(24, 200, 255, 0.16) !important;
 }
 
 .stButton > button:hover {
@@ -446,6 +446,43 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
 
 div[data-testid="stHorizontalBlock"] > div:has(.stat-card) {
     width: 100%;
+}
+
+.welcome-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+}
+
+.welcome-card {
+    padding: 1rem;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+.welcome-title {
+    font-size: 0.84rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9ce7ff;
+    margin-bottom: 0.55rem;
+}
+
+.welcome-copy, .soft-list {
+    color: var(--muted);
+    line-height: 1.8;
+    font-size: 0.94rem;
+}
+
+@media (max-width: 900px) {
+    .welcome-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 2.8rem;
+    }
 }
 </style>
         """,
@@ -460,7 +497,7 @@ def render_sidebar():
             <div class="sidebar-brand">
                 <div class="logo">🎓</div>
                 <div class="name">VIT Pune AI</div>
-                <div class="sub">Student Support Agent</div>
+                <div class="sub">Campus Assistant</div>
             </div>
             """,
             unsafe_allow_html=True,
@@ -470,7 +507,7 @@ def render_sidebar():
             ("chat", "AI Chat"),
             ("feedback", "Feedback"),
             ("reports", "Reports"),
-            ("about", "About"),
+            ("about", "Guide"),
         ]
         for key, label in nav_items:
             if st.button(label, key=f"nav_{key}", use_container_width=True):
@@ -507,27 +544,25 @@ def render_sidebar():
             st.rerun()
 
         st.markdown("<div style='height:1rem;'></div>", unsafe_allow_html=True)
-        st.caption("Architecture: RAG + LangChain + Streamlit")
-        st.caption("LLM target: Ollama `llama3`")
+        st.caption("Ask questions, review feedback, and generate campus reports.")
         st.caption(datetime.now().strftime("%d %b %Y"))
 
 
 def render_hero(feedback_rows):
-    counts = sentiment_counts(feedback_rows)
     stats = [
-        ("3", "AI Tools"),
-        (f"{len(feedback_rows)}+", "Feedback Records"),
-        ("RAG", "Architecture"),
-        ("LLaMA3", "LLM Model"),
-        ("∞", "Queries"),
+        ("24/7", "Ready To Help"),
+        (f"{len(feedback_rows)}+", "Student Voices"),
+        ("Chat", "Natural Answers"),
+        ("Reports", "Instant Insights"),
+        ("Fast", "Smooth Experience"),
     ]
 
     st.markdown(
         """
         <div class="hero">
-            <div class="hero-badge">Generative AI · RAG · LangChain</div>
+            <div class="hero-badge">Campus assistant for students</div>
             <h1 class="hero-title">VIT Pune AI Agent</h1>
-            <div class="hero-copy">Your intelligent university assistant — ask anything, get instant answers</div>
+            <div class="hero-copy">Ask about campus life, deadlines, placements, hostel rules, or student feedback and get a clean answer without digging through documents.</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -555,7 +590,28 @@ def render_chat_page(feedback_rows):
 
     with col_main:
         st.markdown('<div class="glass section">', unsafe_allow_html=True)
-        st.markdown('<div class="section-label">Quick Queries</div>', unsafe_allow_html=True)
+        st.markdown('<div class="section-label">Start Here</div>', unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div class="welcome-grid">
+                <div class="welcome-card">
+                    <div class="welcome-title">Ask Naturally</div>
+                    <div class="welcome-copy">Type full questions the same way you would ask a real assistant. No special format is needed.</div>
+                </div>
+                <div class="welcome-card">
+                    <div class="welcome-title">Use Shortcuts</div>
+                    <div class="welcome-copy">Tap a quick prompt for common student needs like hostel info, exams, placements, and reports.</div>
+                </div>
+                <div class="welcome-card">
+                    <div class="welcome-title">Stay Focused</div>
+                    <div class="welcome-copy">Use one topic at a time for cleaner answers, especially when generating reports or summaries.</div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("<div style='height:1rem;'></div>", unsafe_allow_html=True)
+        st.markdown('<div class="section-label">Quick Prompts</div>', unsafe_allow_html=True)
         st.markdown(
             """
             <div class="quick-pills">
@@ -618,11 +674,11 @@ def render_chat_page(feedback_rows):
             with input_col:
                 user_query = st.text_input(
                     "Ask a question",
-                    placeholder="e.g. What are hostel rules? | Summarize feedback | Generate report...",
+                    placeholder="Ask about campus life, academics, deadlines, reports, or student feedback...",
                     label_visibility="collapsed",
                 )
             with button_col:
-                submitted = st.form_submit_button("Send ->", use_container_width=True)
+                submitted = st.form_submit_button("Send", use_container_width=True)
 
         if submitted and user_query.strip():
             quick_submit(user_query.strip())
@@ -653,13 +709,12 @@ def render_chat_page(feedback_rows):
         st.markdown(
             f"""
             <div class="glass section">
-                <div class="section-label">Live Snapshot</div>
-                <div class="info-list">
+                <div class="section-label">Student Mood Snapshot</div>
+                <div class="soft-list">
                     Positive feedback: <strong>{counts['Positive']}</strong><br>
                     Negative feedback: <strong>{counts['Negative']}</strong><br>
                     Neutral feedback: <strong>{counts['Neutral']}</strong><br>
-                    Data sources: <strong>3 local files</strong><br>
-                    Fallback mode: <strong>Enabled</strong>
+                    Best for: quick answers, summaries, and guided reports
                 </div>
             </div>
             """,
@@ -669,12 +724,11 @@ def render_chat_page(feedback_rows):
         st.markdown(
             """
             <div class="glass section">
-                <div class="section-label">How It Works</div>
-                <div class="info-list">
-                    1. Your question is routed to Q&A, feedback, or reports.<br>
-                    2. Relevant local university context is retrieved.<br>
-                    3. Ollama is used when available for richer generation.<br>
-                    4. The app falls back gracefully when the local model is unavailable.
+                <div class="section-label">Tips</div>
+                <div class="soft-list">
+                    Ask follow-up questions to refine an answer instead of starting over.<br>
+                    Use the Feedback page when you want filtered student opinions first.<br>
+                    Keep report topics narrow for stronger, more relevant summaries.
                 </div>
             </div>
             """,
@@ -810,16 +864,12 @@ def render_about_page(feedback_rows):
         st.markdown(
             f"""
             <div class="glass section">
-                <div class="section-label">Project Overview</div>
-                <div class="info-list">
-                    Name: VIT Pune AI Agent<br>
-                    Type: University support assistant<br>
-                    Frontend: Streamlit<br>
-                    Backend: Python + LangChain<br>
-                    Retrieval store: ChromaDB<br>
-                    Embeddings: {escape_text('all-MiniLM-L6-v2')}<br>
-                    Local model target: {escape_text('llama3 via Ollama')}<br>
-                    Feedback records: <strong>{len(feedback_rows)}</strong>
+                <div class="section-label">What This Assistant Does</div>
+                <div class="soft-list">
+                    Helps students find fast answers without searching multiple files.<br>
+                    Pulls together university information, deadlines, and student feedback.<br>
+                    Supports quick campus questions as well as structured report generation.<br>
+                    Keeps the experience simple even when advanced AI features are unavailable.
                 </div>
             </div>
             """,
@@ -828,13 +878,13 @@ def render_about_page(feedback_rows):
         st.markdown(
             f"""
             <div class="glass section">
-                <div class="section-label">Dataset Snapshot</div>
-                <div class="info-list">
-                    Positive: <strong>{counts['Positive']}</strong><br>
-                    Negative: <strong>{counts['Negative']}</strong><br>
-                    Neutral: <strong>{counts['Neutral']}</strong><br>
-                    Sources: university data, deadlines, feedback<br>
-                    Mode: local-first with graceful fallback
+                <div class="section-label">Campus Snapshot</div>
+                <div class="soft-list">
+                    Feedback records available: <strong>{len(feedback_rows)}</strong><br>
+                    Positive responses: <strong>{counts['Positive']}</strong><br>
+                    Negative responses: <strong>{counts['Negative']}</strong><br>
+                    Neutral responses: <strong>{counts['Neutral']}</strong><br>
+                    Main sources include campus information, deadlines, and student feedback
                 </div>
             </div>
             """,
@@ -845,13 +895,12 @@ def render_about_page(feedback_rows):
         st.markdown(
             """
             <div class="glass section">
-                <div class="section-label">Setup</div>
-                <div class="info-list">
-                    1. Install dependencies with <code>pip install -r requirements.txt</code><br>
-                    2. Install Ollama and run <code>ollama pull llama3</code><br>
-                    3. Start Ollama with <code>ollama serve</code><br>
-                    4. Run the UI with <code>streamlit run app.py</code><br>
-                    5. Click <strong>Initialize Agent</strong> in the sidebar
+                <div class="section-label">Best Ways To Use It</div>
+                <div class="soft-list">
+                    Start in chat for direct answers about exams, fees, rules, and contacts.<br>
+                    Open Feedback to explore student comments by category and sentiment.<br>
+                    Use Reports when you want a clear summary on one campus topic.<br>
+                    Ask narrower questions for sharper, more relevant answers.
                 </div>
             </div>
             """,
@@ -860,12 +909,12 @@ def render_about_page(feedback_rows):
         st.markdown(
             """
             <div class="glass section">
-                <div class="section-label">Capabilities</div>
-                <div class="info-list">
-                    - Answer questions from local university knowledge<br>
-                    - Summarize student feedback by category<br>
-                    - Generate structured reports<br>
-                    - Continue operating when the local LLM is unavailable
+                <div class="section-label">What You Can Ask</div>
+                <div class="soft-list">
+                    Hostel timings, rules, services, and common concerns<br>
+                    Department information, exams, events, and important dates<br>
+                    Placement details and student sentiment around career support<br>
+                    Quick feedback summaries and topic-based campus reports
                 </div>
             </div>
             """,
