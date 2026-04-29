@@ -1,0 +1,31 @@
+StudentID,Department,Year,Category,Feedback,Sentiment
+101,Computer Engineering,3,Hostel,The hostel food quality is very poor and needs immediate improvement,Negative
+102,AI & Data Science,2,Faculty,Professors in the AI department are extremely supportive and helpful,Positive
+103,Information Technology,4,Library,Library should remain open till midnight during exam season,Negative
+104,Computer Engineering,1,Hostel,WiFi in the hostel is very slow especially after 9 PM,Negative
+105,Electronics,3,Events,The tech fest Avishkar was absolutely amazing and very well organized,Positive
+106,Computer Engineering,2,Academics,More practical lab sessions are needed in core programming courses,Negative
+107,AI & Data Science,4,Placements,Placement training should start from 4th semester not 5th,Negative
+108,Information Technology,2,Hostel,Hostel rooms need better maintenance and regular cleaning,Negative
+109,Computer Engineering,3,Canteen,Canteen food quality is good but the prices are too expensive,Neutral
+110,AI & Data Science,1,Academics,Workshops and seminars organized by the department are very helpful,Positive
+111,Computer Engineering,3,Faculty,Some professors need to update their course material with latest trends,Negative
+112,Information Technology,4,Placements,Mock interview sessions organized by the placement cell were excellent,Positive
+113,Electronics,2,Library,E-journal access and digital library resources are very useful,Positive
+114,Computer Engineering,1,Hostel,Hostel warden is very cooperative and resolves issues quickly,Positive
+115,AI & Data Science,3,Academics,The curriculum is well-designed and industry-relevant,Positive
+116,Information Technology,2,Hostel,Hot water supply in hostel is often unavailable in winter mornings,Negative
+117,Computer Engineering,4,Academics,Internship opportunities should be better promoted and guided,Negative
+118,Electronics,3,Events,Cultural fest Sangram was brilliantly managed this year,Positive
+119,AI & Data Science,2,Faculty,AI lab equipment is outdated and needs to be upgraded,Negative
+120,Computer Engineering,1,Canteen,More variety of healthy food options should be added to the canteen,Negative
+121,Information Technology,3,Academics,Online learning portal needs better user interface and speed,Negative
+122,Computer Engineering,4,Placements,Companies visiting for placements are from good reputed organizations,Positive
+123,AI & Data Science,2,Hostel,Common room facilities in hostel are very good and well maintained,Positive
+124,Electronics,3,Library,Library fine system should be more flexible during exam periods,Negative
+125,Computer Engineering,1,Faculty,Guest lectures from industry professionals are very insightful,Positive
+126,Information Technology,4,Hostel,Security at hostel gate needs to be more vigilant,Negative
+127,AI & Data Science,3,Academics,Project-based learning approach in AI courses is excellent,Positive
+128,Computer Engineering,2,Canteen,Canteen should have longer operating hours during exam week,Negative
+129,Electronics,4,Placements,More off-campus placement opportunities should be explored,Negative
+130,Computer Engineering,3,Events,Hackathon CodeStorm was well-organized with great problem statements,Positive

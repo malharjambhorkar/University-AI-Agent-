@@ -1,0 +1,121 @@
+University Name: VIT Pune (Vishwakarma Institute of Technology)
+Location: Pune, Maharashtra, India
+Established: 1983
+Affiliation: Autonomous Institute affiliated to Savitribai Phule Pune University
+
+=== DEPARTMENTS ===
+- Computer Engineering (CE)
+- Information Technology (IT)
+- Artificial Intelligence & Data Science (AIDS)
+- Electronics & Telecommunication Engineering (E&TC)
+- Mechanical Engineering (ME)
+- Civil Engineering (Civil)
+
+=== COURSES ===
+
+Computer Engineering (CE):
+- Data Structures and Algorithms
+- Operating Systems
+- Computer Networks
+- Machine Learning
+- Database Management Systems
+- Software Engineering
+- Cloud Computing
+- Cybersecurity
+- Web Development
+- Compiler Design
+
+Artificial Intelligence & Data Science (AIDS):
+- Artificial Intelligence
+- Deep Learning
+- Natural Language Processing
+- Data Analytics
+- Computer Vision
+- Reinforcement Learning
+- Big Data Technologies
+- Statistical Modeling
+
+Information Technology (IT):
+- Information Security
+- Mobile Application Development
+- IoT (Internet of Things)
+- Business Intelligence
+- ERP Systems
+
+=== HOSTEL RULES ===
+- No entry after 10 PM without prior permission from warden.
+- ID card is mandatory at all times inside campus.
+- Visitors are allowed only till 7 PM.
+- Strict silence must be maintained after 11 PM.
+- No cooking in hostel rooms.
+- Ragging is strictly prohibited. Offenders will be expelled.
+- Alcohol and drugs are strictly prohibited on campus.
+- Electrical appliances (heaters, irons) are not allowed in rooms.
+- Cleanliness of rooms is mandatory. Weekly inspection is conducted.
+- Hostel fees must be paid by the 5th of every month.
+
+=== LIBRARY ===
+- Open from 8 AM to 10 PM on weekdays.
+- Open from 9 AM to 6 PM on weekends.
+- Digital resources and e-journals are available 24/7.
+- Silence must be maintained at all times.
+- Maximum 3 books can be issued at a time.
+- Fine of Rs 5/day for late returns.
+- Reference books cannot be issued; only reading inside library.
+- Printing and scanning facility is available.
+
+=== EXAMINATION SCHEDULE ===
+- Mid Semester Exam 1: August (even sem) / February (odd sem)
+- Mid Semester Exam 2: October (even sem) / March (odd sem)
+- End Semester Exams: November (even sem) / April (odd sem)
+- Supplementary Exams: June every year
+- Results declared within 30 days of last exam.
+
+=== EVENTS & ACTIVITIES ===
+- Tech Fest (Avishkar): March every year
+- Cultural Fest (Sangram): November every year
+- Hackathon (CodeStorm): January every year
+- Sports Week: February every year
+- Alumni Meet: December every year
+- National Seminar on AI: September every year
+- Industry Expert Lecture Series: Every month
+
+=== PLACEMENTS ===
+- Dedicated Training & Placement Cell.
+- Top Recruiting Companies: TCS, Infosys, Wipro, Google, Microsoft, Amazon, Accenture, Capgemini, Cognizant, IBM.
+- Average Package: 6 LPA
+- Highest Package: 30 LPA (Microsoft)
+- Placement rate: 85% of eligible students placed.
+- Pre-placement training starts in 5th semester.
+- Aptitude, technical, and soft skills training provided.
+
+=== FEES STRUCTURE ===
+- Tuition Fees (per year): Rs 1,20,000
+- Hostel Fees (per year): Rs 70,000
+- Exam Fees (per semester): Rs 2,500
+- Library Fee (per year): Rs 1,000
+- Scholarship available for meritorious and economically weak students.
+
+=== CANTEEN & MESS ===
+- Main Canteen: Open 8 AM to 9 PM
+- Hostel Mess: Breakfast 7-9 AM, Lunch 12-2 PM, Dinner 7-9 PM
+- Veg and Non-Veg options available.
+- Special diet available for students with medical requirements (application required).
+- Monthly mess charges: Rs 4,000 (approx)
+
+=== IMPORTANT CONTACTS ===
+- Principal Office: 020-24250000
+- Hostel Warden (Boys): 020-24250001
+- Hostel Warden (Girls): 020-24250002
+- Training & Placement Cell: 020-24250010
+- Library: 020-24250020
+- Examination Cell: 020-24250030
+- Student Helpdesk: helpdesk@vit.edu
+
+=== ACADEMIC POLICIES ===
+- Minimum 75% attendance is mandatory to appear for exams.
+- Students with less than 75% attendance will be detained.
+- Medical leave must be supported with doctor's certificate.
+- Grace marks can be awarded as per university norms.
+- Academic re-evaluation can be applied within 15 days of result declaration.
+- Code of Conduct must be followed in all academic activities.

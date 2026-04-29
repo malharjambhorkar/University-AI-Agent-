@@ -1,0 +1,25 @@
+# ============================================================
+#  VIT Pune AI Agent - Requirements
+#  Install with: pip install -r requirements.txt
+# ============================================================
+
+# Core LangChain
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.52
+
+# LLM - Ollama (runs LLaMA3 locally)
+ollama==0.1.8
+
+# Vector Store
+chromadb==0.4.24
+
+# Embeddings
+sentence-transformers==2.7.0
+
+# Frontend
+streamlit==1.33.0
+
+# Utilities
+pandas==2.2.2
+python-dotenv==1.0.1
