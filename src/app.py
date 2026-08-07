@@ -16,8 +16,8 @@ st.set_page_config(
 )
 
 
-BASE_DIR = os.path.dirname(__file__)
-DATA_DIR = os.path.join(BASE_DIR, "data")
+PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 
 
 @st.cache_resource(show_spinner=False)

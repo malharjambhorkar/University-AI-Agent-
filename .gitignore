@@ -1,11 +1,17 @@
 __pycache__/
 *.py[cod]
+.env
+.venv/
+venv/
 
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
 .streamlit/
+
+coverage.xml
+htmlcov/
 
 vectorstore/*
 !vectorstore/.gitkeep

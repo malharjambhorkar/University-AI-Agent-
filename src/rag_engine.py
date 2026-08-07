@@ -6,6 +6,8 @@ from collections import Counter
 from dataclasses import dataclass
 from typing import Dict, List, Optional
 
+from dotenv import load_dotenv
+
 warnings.filterwarnings("ignore")
 
 try:
@@ -22,9 +24,10 @@ except Exception:  # pragma: no cover - keeps the app usable even if optional im
     Chroma = None
 
 
-BASE_DIR = os.path.dirname(__file__)
-DATA_DIR = os.path.join(BASE_DIR, "data")
-VECTORSTORE_DIR = os.path.join(BASE_DIR, "vectorstore")
+PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
+load_dotenv(os.path.join(PROJECT_ROOT, ".env"))
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+VECTORSTORE_DIR = os.path.join(PROJECT_ROOT, "vectorstore")
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 DEFAULT_OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
 SECTION_ALIASES = {
